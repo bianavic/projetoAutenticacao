@@ -19,9 +19,9 @@ public class CadastroService {
             repository.save(usuario);
             System.out.println("OK, CADASTRADO");
         }
-        /** else if (userCadastrado.getCpf() == usuario.getCpf()){
+        else if (userCadastrado.getCpf() == usuario.getCpf()){
             System.out.println("JA EXISTE");
         }
         return userCadastrado;
-    } **/
+    }
 }
